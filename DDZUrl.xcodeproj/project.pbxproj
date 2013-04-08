@@ -1,0 +1,336 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64729A4814445D62007462C7 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64729A4714445D62007462C7 /* UIKit.framework */; };
+		64729A4A14445D62007462C7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64729A4914445D62007462C7 /* Foundation.framework */; };
+		64729A4C14445D62007462C7 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64729A4B14445D62007462C7 /* CoreGraphics.framework */; };
+		64729A5214445D62007462C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 64729A5014445D62007462C7 /* InfoPlist.strings */; };
+		64729A5414445D62007462C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 64729A5314445D62007462C7 /* main.m */; };
+		64729A5814445D62007462C7 /* DDZUrlAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 64729A5714445D62007462C7 /* DDZUrlAppDelegate.m */; };
+		64729A5B14445D63007462C7 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64729A5914445D63007462C7 /* MainWindow.xib */; };
+		64729A5E14445D63007462C7 /* DDZUrlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 64729A5D14445D63007462C7 /* DDZUrlViewController.m */; };
+		64729A6114445D63007462C7 /* DDZUrlViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64729A5F14445D63007462C7 /* DDZUrlViewController.xib */; };
+		BF7DBA8D170A6D2500E81D50 /* MainWindow-iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF7DBA8B170A6D2500E81D50 /* MainWindow-iPad.xib */; };
+		BFE64FB7165C5DC100FC447E /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = BF90E0A3165B7695005C48E7 /* icon.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64729A4314445D62007462C7 /* DDZUrl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDZUrl.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		64729A4714445D62007462C7 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		64729A4914445D62007462C7 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		64729A4B14445D62007462C7 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		64729A4F14445D62007462C7 /* DDZUrl-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DDZUrl-Info.plist"; sourceTree = "<group>"; };
+		64729A5114445D62007462C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		64729A5314445D62007462C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		64729A5514445D62007462C7 /* DDZUrl-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DDZUrl-Prefix.pch"; sourceTree = "<group>"; };
+		64729A5614445D62007462C7 /* DDZUrlAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDZUrlAppDelegate.h; sourceTree = "<group>"; };
+		64729A5714445D62007462C7 /* DDZUrlAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDZUrlAppDelegate.m; sourceTree = "<group>"; };
+		64729A5A14445D63007462C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		64729A5C14445D63007462C7 /* DDZUrlViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DDZUrlViewController.h; sourceTree = "<group>"; };
+		64729A5D14445D63007462C7 /* DDZUrlViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DDZUrlViewController.m; sourceTree = "<group>"; };
+		64729A6014445D63007462C7 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/DDZUrlViewController.xib; sourceTree = "<group>"; };
+		BF7DBA8C170A6D2500E81D50 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = "iPad/en.lproj/MainWindow-iPad.xib"; sourceTree = "<group>"; };
+		BF90E0A3165B7695005C48E7 /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64729A4014445D62007462C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64729A4814445D62007462C7 /* UIKit.framework in Frameworks */,
+				64729A4A14445D62007462C7 /* Foundation.framework in Frameworks */,
+				64729A4C14445D62007462C7 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64729A3814445D62007462C7 = {
+			isa = PBXGroup;
+			children = (
+				BF90E0A3165B7695005C48E7 /* icon.png */,
+				64729A4D14445D62007462C7 /* DDZUrl */,
+				64729A4614445D62007462C7 /* Frameworks */,
+				64729A4414445D62007462C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64729A4414445D62007462C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64729A4314445D62007462C7 /* DDZUrl.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64729A4614445D62007462C7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64729A4714445D62007462C7 /* UIKit.framework */,
+				64729A4914445D62007462C7 /* Foundation.framework */,
+				64729A4B14445D62007462C7 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64729A4D14445D62007462C7 /* DDZUrl */ = {
+			isa = PBXGroup;
+			children = (
+				BF7DBA8A170A6D2400E81D50 /* iPad */,
+				64729A5614445D62007462C7 /* DDZUrlAppDelegate.h */,
+				64729A5714445D62007462C7 /* DDZUrlAppDelegate.m */,
+				64729A5914445D63007462C7 /* MainWindow.xib */,
+				64729A5C14445D63007462C7 /* DDZUrlViewController.h */,
+				64729A5D14445D63007462C7 /* DDZUrlViewController.m */,
+				64729A5F14445D63007462C7 /* DDZUrlViewController.xib */,
+				64729A4E14445D62007462C7 /* Supporting Files */,
+			);
+			path = DDZUrl;
+			sourceTree = "<group>";
+		};
+		64729A4E14445D62007462C7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64729A4F14445D62007462C7 /* DDZUrl-Info.plist */,
+				64729A5014445D62007462C7 /* InfoPlist.strings */,
+				64729A5314445D62007462C7 /* main.m */,
+				64729A5514445D62007462C7 /* DDZUrl-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		BF7DBA8A170A6D2400E81D50 /* iPad */ = {
+			isa = PBXGroup;
+			children = (
+				BF7DBA8B170A6D2500E81D50 /* MainWindow-iPad.xib */,
+			);
+			name = iPad;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64729A4214445D62007462C7 /* DDZUrl */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64729A6414445D63007462C7 /* Build configuration list for PBXNativeTarget "DDZUrl" */;
+			buildPhases = (
+				64729A3F14445D62007462C7 /* Sources */,
+				64729A4014445D62007462C7 /* Frameworks */,
+				64729A4114445D62007462C7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DDZUrl;
+			productName = DDZUrl;
+			productReference = 64729A4314445D62007462C7 /* DDZUrl.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64729A3A14445D62007462C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+			};
+			buildConfigurationList = 64729A3D14445D62007462C7 /* Build configuration list for PBXProject "DDZUrl" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64729A3814445D62007462C7;
+			productRefGroup = 64729A4414445D62007462C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64729A4214445D62007462C7 /* DDZUrl */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64729A4114445D62007462C7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64729A5214445D62007462C7 /* InfoPlist.strings in Resources */,
+				64729A5B14445D63007462C7 /* MainWindow.xib in Resources */,
+				64729A6114445D63007462C7 /* DDZUrlViewController.xib in Resources */,
+				BFE64FB7165C5DC100FC447E /* icon.png in Resources */,
+				BF7DBA8D170A6D2500E81D50 /* MainWindow-iPad.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64729A3F14445D62007462C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64729A5414445D62007462C7 /* main.m in Sources */,
+				64729A5814445D62007462C7 /* DDZUrlAppDelegate.m in Sources */,
+				64729A5E14445D63007462C7 /* DDZUrlViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		64729A5014445D62007462C7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64729A5114445D62007462C7 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		64729A5914445D63007462C7 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64729A5A14445D63007462C7 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		64729A5F14445D63007462C7 /* DDZUrlViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				64729A6014445D63007462C7 /* en */,
+			);
+			name = DDZUrlViewController.xib;
+			sourceTree = "<group>";
+		};
+		BF7DBA8B170A6D2500E81D50 /* MainWindow-iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF7DBA8C170A6D2500E81D50 /* en */,
+			);
+			name = "MainWindow-iPad.xib";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		64729A6214445D63007462C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		64729A6314445D63007462C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: 4A Volcano Computer Tech. Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: 4A Volcano Computer Tech. Co., Ltd.";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PROVISIONING_PROFILE = "9F6CB47A-0FDF-4551-AC2C-2651014B7EEC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9F6CB47A-0FDF-4551-AC2C-2651014B7EEC";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		64729A6514445D63007462C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Sisong Hou (489LX848LX)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Sisong Hou (489LX848LX)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDZUrl/DDZUrl-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "DDZUrl/DDZUrl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DDZUrl;
+				PROVISIONING_PROFILE = "D074062F-A210-4F4E-94F7-6C487B2626A4";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "D074062F-A210-4F4E-94F7-6C487B2626A4";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		64729A6614445D63007462C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: 4A Volcano Computer Tech. Co., Ltd.";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: 4A Volcano Computer Tech. Co., Ltd.";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DDZUrl/DDZUrl-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				INFOPLIST_FILE = "DDZUrl/DDZUrl-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				PRODUCT_NAME = DDZUrl;
+				PROVISIONING_PROFILE = "9F6CB47A-0FDF-4551-AC2C-2651014B7EEC";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "9F6CB47A-0FDF-4551-AC2C-2651014B7EEC";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64729A3D14445D62007462C7 /* Build configuration list for PBXProject "DDZUrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64729A6214445D63007462C7 /* Debug */,
+				64729A6314445D63007462C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64729A6414445D63007462C7 /* Build configuration list for PBXNativeTarget "DDZUrl" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64729A6514445D63007462C7 /* Debug */,
+				64729A6614445D63007462C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64729A3A14445D62007462C7 /* Project object */;
+}
